@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>⾃⼰紹介ページ</title>
+</head>
+
+<body>
+    <script src="../js/script.js"></script>
+    <header>
+        <h2>⾃⼰紹介サイト</h2>
+    </header>
+    <article>
+        <img src="../img/face.png" alt="⾃⼰紹介写真">
+        <table border="1">
+            <tr>
+                <th>名前</th>
+                <td>フルネス 花⼦</td>
+            </tr>
+            <tr>
+                <th>出⾝地</th>
+                <td>東京都</td>
+            </tr>
+            <tr>
+                <th>⾃⼰アピール</th>
+                <td>
+                    <ul>
+                        <li>⼭登りが趣味です。今年は富⼠⼭に挑戦しようと思っています！</li>
+                        <li>猫を２匹飼っています。<a href="https://www.instagram.com"
+                                target="_blank">Instagram</a>に毎⽇にゃんこたちの写真を載せています！</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>アンケート</th>
+                <td>
+                    <div id="question">⼭登りに興味はありますか？</div>
+                    <form>
+                        <dl>
+                            <dt>&lt;お名前&gt;</dt>
+                            <dd><input type="text" name="customer" id="cstname"></dd>
+                            <dt>選択してください</dt>
+                            <dd><input type="radio" name="interest" value="yes">興味あり！
+                                <input type="radio" name="interest" value="no">興味なし・・・
+                            </dd>
+                        </dl>
+                        <button type="button" id="btn01">送信</button>
+                    </form>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </article>
+    <footer>
+        <small>&copy;Fullness, Inc.</small>
+    </footer>
+</body>
+
+</html>

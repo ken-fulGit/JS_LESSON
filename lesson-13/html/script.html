@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaSript基礎 演習-13</title>
+</head>
+
+<body>
+    <h1>演習-13 要素を取得し、変更する</h1>
+    <form>
+        顧客: <input type="text" id="customer" value="フルネス花⼦"><br>
+        ⾊:
+        <input type="radio" name="color" value="⾚"> ⾚
+        <input type="radio" name="color" value="⻘" checked> ⻘
+        <input type="radio" name="color" value="⻩"> ⻩<br>
+        ⾎液型:
+        <select id="bloodtype">
+            <option value="A型">A型</option>
+            <option value="B型">B型</option>
+            <option value="O型" selected>O型</option>
+            <option value="AB型">AB型</option>
+            <option value="不明">不明</option>
+        </select><br>
+        趣味:
+        <select id="hobby" multiple size="4">
+            <option value="読書" selected>読書</option>
+            <option value="サッカー">サッカー</option>
+            <option value="野球" selected>野球</option>
+            <option value="ゲーム">ゲーム</option>
+        </select>
+    </form>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
